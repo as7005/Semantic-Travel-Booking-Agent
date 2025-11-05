@@ -1,0 +1,95 @@
+@prefix travel: <http://example.org/travel#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+travel:Flight1 a travel:FlightService ;
+    travel:airline "IndiGo" ;
+    travel:arrivalCity "Delhi" ;
+    travel:departureCity "Chennai" ;
+    travel:price 6500 ;
+    travel:serviceDate "2025-11-05"^^xsd:date .
+
+travel:Flight2 a travel:FlightService ;
+    travel:airline "Air India" ;
+    travel:arrivalCity "Delhi" ;
+    travel:departureCity "Chennai" ;
+    travel:price 7200 ;
+    travel:serviceDate "2025-11-05"^^xsd:date .
+
+travel:Flight3 a travel:FlightService ;
+    travel:airline "Vistara" ;
+    travel:arrivalCity "Mumbai" ;
+    travel:departureCity "Chennai" ;
+    travel:price 5800 ;
+    travel:serviceDate "2025-11-05"^^xsd:date .
+
+travel:Flight4 a travel:FlightService ;
+    travel:airline "SpiceJet" ;
+    travel:arrivalCity "Delhi" ;
+    travel:departureCity "Chennai" ;
+    travel:price 9000 ;
+    travel:serviceDate "2025-11-03"^^xsd:date .
+
+travel:Hotel0 a travel:HotelService ;
+    travel:location "Delhi" ;
+    travel:price 2800 ;
+    travel:rating 4e+00 ;
+    travel:serviceDate "2025-11-01"^^xsd:date .
+
+travel:Hotel1 a travel:HotelService ;
+    travel:location "Delhi" ;
+    travel:price 3000 ;
+    travel:rating 4.2e+00 ;
+    travel:serviceDate "2025-11-05"^^xsd:date .
+
+travel:Hotel2 a travel:HotelService ;
+    travel:location "Delhi" ;
+    travel:price 2500 ;
+    travel:rating 3.9e+00 ;
+    travel:serviceDate "2025-11-05"^^xsd:date .
+
+travel:Hotel4 a travel:HotelService ;
+    travel:location "Delhi" ;
+    travel:price 4500 ;
+    travel:rating 4.8e+00 ;
+    travel:serviceDate "2025-11-06"^^xsd:date .
+
+travel:HotelG1 a travel:HotelService ;
+    travel:location "Gurugram" ;
+    travel:price 2600 ;
+    travel:rating 4.1e+00 ;
+    travel:serviceDate "2025-11-03"^^xsd:date .
+
+travel:HotelG2 a travel:HotelService ;
+    travel:location "Gurugram" ;
+    travel:price 2200 ;
+    travel:rating 3.8e+00 ;
+    travel:serviceDate "2025-11-04"^^xsd:date .
+
+travel:HotelM1 a travel:HotelService ;
+    travel:location "Mumbai" ;
+    travel:price 2000 ;
+    travel:rating 4e+00 ;
+    travel:serviceDate "2025-11-05"^^xsd:date .
+
+travel:HotelN1 a travel:HotelService ;
+    travel:location "Noida" ;
+    travel:price 2400 ;
+    travel:rating 4e+00 ;
+    travel:serviceDate "2025-11-02"^^xsd:date .
+
+travel:Taxi1 a travel:TaxiService ;
+    travel:city "Delhi" ;
+    travel:price 900 .
+
+travel:Taxi2 a travel:TaxiService ;
+    travel:city "Delhi" ;
+    travel:price 1200 .
+
+travel:Taxi3 a travel:TaxiService ;
+    travel:city "Mumbai" ;
+    travel:price 700 .
+
+travel:TaxiG1 a travel:TaxiService ;
+    travel:city "Gurugram" ;
+    travel:price 1000 .
+
